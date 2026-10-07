@@ -1,0 +1,6 @@
+{
+  "name": "IronCoach PWA - Personal Trainer Tablet",
+  "description": "Progressive Web App para personal trainers otimizado para tablet vertical: gestão de alunos, agenda, prescrição de treinos com métricas e execução de treino em tempo real com cronômetro e histórico de cargas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

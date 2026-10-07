@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#090a0f" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  
+  <!-- Subtle Glowing Ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#primaryGrad)" stroke-width="4" opacity="0.4" stroke-dasharray="16 8" />
+
+  <!-- Dumbbell / Iron Coach Emblem -->
+  <g transform="translate(106, 126)">
+    <!-- Left Weight Plates -->
+    <rect x="20" y="40" width="28" height="180" rx="10" fill="url(#primaryGrad)" />
+    <rect x="54" y="65" width="22" height="130" rx="8" fill="#60a5fa" />
+    <rect x="80" y="90" width="16" height="80" rx="6" fill="#93c5fd" />
+    
+    <!-- Central Barbell Shaft with Grip Knurling -->
+    <rect x="96" y="115" width="108" height="30" rx="6" fill="#e2e8f0" />
+    <line x1="120" y1="117" x2="120" y2="143" stroke="#94a3b8" stroke-width="3" />
+    <line x1="135" y1="117" x2="135" y2="143" stroke="#94a3b8" stroke-width="3" />
+    <line x1="150" y1="117" x2="150" y2="143" stroke="#94a3b8" stroke-width="3" />
+    <line x1="165" y1="117" x2="165" y2="143" stroke="#94a3b8" stroke-width="3" />
+    <line x1="180" y1="117" x2="180" y2="143" stroke="#94a3b8" stroke-width="3" />
+
+    <!-- Right Weight Plates -->
+    <rect x="204" y="90" width="16" height="80" rx="6" fill="#93c5fd" />
+    <rect x="224" y="65" width="22" height="130" rx="8" fill="#60a5fa" />
+    <rect x="252" y="40" width="28" height="180" rx="10" fill="url(#primaryGrad)" />
+
+    <!-- Stopwatch overlay badge in center -->
+    <circle cx="150" cy="195" r="46" fill="#090a0f" stroke="url(#accentGrad)" stroke-width="6" />
+    <path d="M150 160 V195 H175" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="150" cy="195" r="4" fill="#34d399" />
+  </g>
+</svg>
